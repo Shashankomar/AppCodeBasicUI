@@ -1,10 +1,11 @@
-package com.appcode
+package com.appcode.ui.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.appcode.R
 
 class TrendingListAdapter(context: Context) :
     RecyclerView.Adapter<TrendingListAdapter.ProductViewHolder>() {
@@ -23,7 +24,5 @@ class TrendingListAdapter(context: Context) :
     }
 
     inner class ProductViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-
     }
-
 }

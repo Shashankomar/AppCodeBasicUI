@@ -1,4 +1,4 @@
-package com.appcode
+package com.appcode.ui.adapter
 
 import android.content.Context
 import android.content.Intent
@@ -9,6 +9,8 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.appcode.R
+import com.appcode.ui.activity.ProductInfoActivity
 
 class OtherProductAdapter(private val context: Context, private val clickableView: Boolean) :
     RecyclerView.Adapter<OtherProductAdapter.ProductViewHolder>() {
@@ -41,6 +43,5 @@ class OtherProductAdapter(private val context: Context, private val clickableVie
     inner class ProductViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var ivOtherProducts: ImageView = view.findViewById(R.id.iv_other_products)
         var llOtherProducts: LinearLayout = view.findViewById(R.id.ll_other_product)
-
     }
 }

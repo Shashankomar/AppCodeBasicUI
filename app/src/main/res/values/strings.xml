@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">AppCode</string>
     <string name="dummy">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English.</string>
+    <string name="location_city_say_delhi">Location City (Say Delhi)</string>
+    <string name="hello_mike_rodger">Hello, Mike Rodger</string>
+    <string name="trending_products">Trending Products</string>
+    <string name="view_more">View More</string>
+    <string name="choose_from_band">Choose from band</string>
+    <string name="product_name_here_earphone">Product Name Here (EarPhone)</string>
+    <string name="category_name_here">Catagory Name Here</string>
+    <string name="brand_name_here_earphone">Brand Name Here (EarPhone)</string>
+    <string name="_2_2_rating">2.2 Rating</string>
+    <string name="_21k_reviews">21k Reviews</string>
+    <string name="u25cf">●</string>
+    <string name="_4_1k_views">4.1k Views</string>
+    <string name="view_other_products">View Other Products</string>
+    <string name="all_category">All Category</string>
+    <string name="card1">card1</string>
+    <string name="card2">card2</string>
+    <string name="card3">card3</string>
+    <string name="click_me">Click me!</string>
 </resources>

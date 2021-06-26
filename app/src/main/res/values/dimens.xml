@@ -11,4 +11,16 @@
     <dimen name="text_size_24sp">24sp</dimen>
     <dimen name="viewpager_next_item_visible">26dp</dimen>
     <dimen name="viewpager_current_item_horizontal_margin">42dp</dimen>
+    <dimen name="vp_height_200dp">200dp</dimen>
+    <dimen name="vp_height_250dp">250dp</dimen>
+    <dimen name="container_height_340dp">340dp</dimen>
+    <dimen name="product_image_width">130dp</dimen>
+    <dimen name="product_image_height">170dp</dimen>
+    <dimen name="margin_175dp">175dp</dimen>
+    <dimen name="stroke_4dp">4dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="iv_category_list_width">160dp</dimen>
+    <dimen name="dimen_180dp">180dp</dimen>
 </resources>

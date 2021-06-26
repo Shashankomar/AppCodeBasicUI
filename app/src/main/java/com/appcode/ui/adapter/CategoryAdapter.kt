@@ -1,12 +1,14 @@
-package com.appcode
+package com.appcode.ui.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.appcode.R
 
-class TrendingAdapter(context: Context) : RecyclerView.Adapter<TrendingAdapter.ProductViewHolder>() {
+class CategoryAdapter(private val context: Context) :
+    RecyclerView.Adapter<CategoryAdapter.ProductViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
         val itemView = LayoutInflater.from(parent.context)
@@ -22,7 +24,5 @@ class TrendingAdapter(context: Context) : RecyclerView.Adapter<TrendingAdapter.P
     }
 
     inner class ProductViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-
     }
-
 }

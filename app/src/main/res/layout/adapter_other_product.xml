@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/iv_other_products"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
+        android:layout_width="@dimen/dimen_180dp"
+        android:layout_height="@dimen/dimen_180dp"
         android:layout_margin="@dimen/iv_border_3dp"
         android:src="@drawable/ic_dummy" />
 </LinearLayout>

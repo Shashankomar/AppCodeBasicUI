@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCode">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.activity.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProductDetailActivity" />
-        <activity android:name=".ProductInfoActivity" />
+        <activity android:name=".ui.activity.ProductDetailActivity" />
+        <activity android:name=".ui.activity.ProductInfoActivity" />
     </application>
 
 </manifest>
